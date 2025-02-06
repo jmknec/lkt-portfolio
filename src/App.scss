@@ -15,4 +15,10 @@
 
 body {
   font-family: $primary-font;
+  color: $lkt-dk-grey;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

@@ -3,11 +3,59 @@
 @use "../../styles/partials/typography" as *;
 
 .header {
-  &__icon-list {
+  width: 100%;
+
+  &__container {
     display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+
+    @include tablet {
+      padding: 1.5rem;
+    }
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    gap: 0.25rem;
+
+    @include tablet {
+      gap: 0.5rem;
+    }
+  }
+
+  &__link--dt {
+    display: none;
+
+    @include tablet {
+      display: initial;
+    }
+  }
+
+  &__link--mobile {
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__nav-item {
+    @include mb-cta;
+
+    @include tablet {
+      @include dt-cta;
+    }
   }
 }
 
 .icon {
-  width: 20px;
+  height: 20px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.small-logo {
+  height: 20px;
 }

@@ -1,7 +1,9 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Header.scss";
 import github from "../../assets/icons/github.svg";
 import linked from "../../assets/icons/linkedin.svg";
+import logo from "../../assets/icons/logo.svg";
+import lkt from "../../assets/icons/lkt.svg";
 
 export default function Header() {
   return (
@@ -9,7 +11,7 @@ export default function Header() {
       <header className="header">
         <div className="header__container">
           <div className="header__icon-container">
-            <ul className="header__icon-list">
+            <ul className="header__list">
               <li className="header__icon">
                 <a
                   className="header__link"
@@ -30,8 +32,24 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          <div className="header__title-container"></div>
-          <nav className="header__site-nav"></nav>
+          <div className="header__logo-container">
+            <Link className="header__link header__link--dt" to={"/"}>
+              <img className="logo" src={logo} alt="ladyKnech Tech logo" />
+            </Link>
+            <Link className="header__link header__link--mobile" to={"/"}>
+              <img className="small-logo" src={lkt} alt="ladyKnech Tech logo" />
+            </Link>
+          </div>
+          <nav className="header__site-nav">
+            <ul className="header__list">
+              <li className="header__nav-item">
+                <Link className="header__link">about</Link>
+              </li>
+              <li className="header__nav-item">
+                <Link className="header__link">work</Link>
+              </li>
+            </ul>
+          </nav>
         </div>
       </header>
     </>
