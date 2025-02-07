@@ -1,0 +1,25 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+
+.banner {
+  &__content {
+    padding: 1rem;
+  }
+
+  &__title {
+    @include mb-titles;
+
+    @include tablet {
+      @include dt-titles;
+    }
+  }
+
+  &__intro {
+    @include mb-body;
+
+    @include tablet {
+      @include dt-body;
+    }
+  }
+}

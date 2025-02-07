@@ -13,7 +13,9 @@
   box-sizing: border-box;
 }
 
-body {
+#root {
+  @include full-size;
+  min-height: 100vh;
   font-family: $primary-font;
   color: $lkt-dk-grey;
 }
@@ -21,4 +23,8 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.main {
+  @include full-size;
 }

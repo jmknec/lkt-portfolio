@@ -71,3 +71,9 @@
   font-weight: 400;
   line-height: 1.25rem;
 }
+
+//sizing & elements
+@mixin full-size {
+  height: 100%;
+  width: 100%;
+}

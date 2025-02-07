@@ -1,3 +1,15 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/typography" as *;
+
+.header--landing {
+  background-color: $lkt-yellow;
+}
+
+.main--landing {
+  background-color: $lkt-lt-yellow;
+}
+
+.banner--landing {
+  background-color: $lkt-yellow;
+}

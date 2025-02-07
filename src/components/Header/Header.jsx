@@ -5,10 +5,10 @@ import linked from "../../assets/icons/linkedin.svg";
 import logo from "../../assets/icons/logo.svg";
 import lkt from "../../assets/icons/lkt.svg";
 
-export default function Header() {
+export default function Header({ headerClass }) {
   return (
     <>
-      <header className="header">
+      <header className={headerClass}>
         <div className="header__container">
           <div className="header__icon-container">
             <ul className="header__list">
