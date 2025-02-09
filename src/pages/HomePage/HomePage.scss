@@ -13,3 +13,25 @@
 .banner--landing {
   background-color: $lkt-yellow;
 }
+
+.projects {
+  padding: 1rem;
+  width: 100%;
+
+  &__heading {
+    @include mb-titles;
+    padding-bottom: 0.5rem;
+
+    @include tablet {
+      @include dt-titles;
+    }
+  }
+
+  &__gallery {
+    @include tablet {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  }
+}

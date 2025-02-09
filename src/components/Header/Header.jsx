@@ -45,9 +45,9 @@ export default function Header({ headerClass }) {
               <li className="header__nav-item">
                 <Link className="header__link">about</Link>
               </li>
-              <li className="header__nav-item">
+              {/* <li className="header__nav-item">
                 <Link className="header__link">work</Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

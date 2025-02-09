@@ -18,24 +18,26 @@ export default function HomePage() {
         />
         <section className="projects">
           <h2 className="projects__heading">Recent Work</h2>
-          <Thumbnail
-            name="Sample"
-            thumb={sample1}
-            altText="image of computer screen"
-            brief="God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows."
-          />
-          <Thumbnail
-            name="Sample 2"
-            thumb={sample2}
-            altText="collection of colour sample cards"
-            brief="Checkmate... Hey, you know how I'm, like, always trying to save the planet? Here's my chance. Must go faster. Must go faster. Did he just throw my cat out of the window? We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore!"
-          />
-          <Thumbnail
-            name="Sample 3"
-            thumb={sample3}
-            altText="collection of vinyl records"
-            brief="Yes, Yes, without the oops! Hey, take a look at the earthlings. Goodbye! Must go faster. This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should."
-          />
+          <div className="projects__gallery">
+            <Thumbnail
+              name="Sample 1"
+              thumb={sample1}
+              altText="image of mug and flowers on a pink background"
+              brief="God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows."
+            />
+            <Thumbnail
+              name="Sample 2"
+              thumb={sample2}
+              altText="image of pink and orange smiley face balloons"
+              brief="Checkmate... Hey, you know how I'm, like, always trying to save the planet? Here's my chance. Must go faster. Must go faster. Did he just throw my cat out of the window? We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore!"
+            />
+            <Thumbnail
+              name="Sample 3"
+              thumb={sample3}
+              altText="collection of vinyl records"
+              brief="Yes, Yes, without the oops! Hey, take a look at the earthlings. Goodbye! Must go faster. This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should."
+            />
+          </div>
         </section>
       </main>
     </>
