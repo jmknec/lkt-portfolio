@@ -43,7 +43,9 @@ export default function Header({ headerClass }) {
           <nav className="header__site-nav">
             <ul className="header__list">
               <li className="header__nav-item">
-                <Link className="header__link">about</Link>
+                <Link className="header__link" to={"about"}>
+                  about
+                </Link>
               </li>
               {/* <li className="header__nav-item">
                 <Link className="header__link">work</Link>

@@ -1,0 +1,15 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+
+.header--about {
+  background-color: $lkt-pink;
+}
+
+.main--about {
+  background-color: $lkt-lt-pink;
+}
+
+.banner--about {
+  background-color: $lkt-pink;
+}
