@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import "./Header.scss";
+import Button from "../Button/Button";
 import logo from "../../assets/icons/logo.svg";
 import lkt from "../../assets/icons/lkt.svg";
 
