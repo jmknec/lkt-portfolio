@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Header.scss";
-import github from "../../assets/icons/github.svg";
-import linked from "../../assets/icons/linkedin.svg";
+// import github from "../../assets/icons/github.svg";
+// import linked from "../../assets/icons/linkedin.svg";
 import logo from "../../assets/icons/logo.svg";
 import lkt from "../../assets/icons/lkt.svg";
 
@@ -10,7 +10,7 @@ export default function Header({ headerClass }) {
     <>
       <header className={headerClass}>
         <div className="header__container">
-          <div className="header__icon-container">
+          {/* <div className="header__icon-container">
             <ul className="header__list">
               <li className="header__icon">
                 <a
@@ -31,7 +31,7 @@ export default function Header({ headerClass }) {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="header__logo-container">
             <Link className="header__link header__link--dt" to={"/"}>
               <img className="logo" src={logo} alt="ladyKnech Tech logo" />

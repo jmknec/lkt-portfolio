@@ -19,10 +19,6 @@
     list-style-type: none;
     display: flex;
     gap: 0.25rem;
-
-    @include tablet {
-      gap: 0.5rem;
-    }
   }
 
   &__link--dt {
@@ -46,10 +42,6 @@
       @include dt-cta;
     }
   }
-}
-
-.icon {
-  height: 20px;
 }
 
 .logo {

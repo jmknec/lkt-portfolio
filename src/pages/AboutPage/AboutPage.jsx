@@ -2,6 +2,7 @@ import "./AboutPage.scss";
 import Header from "../../components/Header/Header";
 import Banner from "../../components/Banner/Banner";
 import AboutSection from "../../components/AboutSection/AboutSection";
+import Footer from "../../components/Footer/Footer";
 import music from "../../assets/illustrations/music.svg";
 import nurse from "../../assets/illustrations/nurse.svg";
 import tech from "../../assets/illustrations/tech.svg";
@@ -38,6 +39,7 @@ export default function AboutPage() {
           altText="Illustration of a person playing a stringed musical instrument"
         />
       </main>
+      <Footer footerClass="footer footer--about" />
     </>
   );
 }

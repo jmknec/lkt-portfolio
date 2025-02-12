@@ -2,6 +2,7 @@ import "./HomePage.scss";
 import Header from "../../components/Header/Header";
 import Banner from "../../components/Banner/Banner";
 import Thumbnail from "../../components/Thumbnail/Thumbnail";
+import Footer from "../../components/Footer/Footer";
 import sample1 from "../../assets/pictures/sample1.avif";
 import sample2 from "../../assets/pictures/sample2.avif";
 import sample3 from "../../assets/pictures/sample3.avif";
@@ -40,6 +41,7 @@ export default function HomePage() {
           </div>
         </section>
       </main>
+      <Footer footerClass="footer footer--landing" />
     </>
   );
 }

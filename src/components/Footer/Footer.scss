@@ -1,0 +1,39 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+
+.footer {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+
+  &--landing {
+    background-color: $lkt-lt-yellow;
+  }
+
+  &--about {
+    background-color: $lkt-lt-pink;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    gap: 0.25rem;
+
+    @include tablet {
+      gap: 0.5rem;
+    }
+  }
+
+  &__bottom {
+    align-self: flex-end;
+  }
+
+  &__copy {
+    @include mb-body;
+  }
+}
+
+.icon {
+  height: 20px;
+}
