@@ -1,3 +1,19 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/typography" as *;
+
+.header--projects {
+  background-color: $lkt-orange;
+}
+
+.main--projects {
+  background-color: $lkt-lt-orange;
+}
+
+.banner--projects {
+  background-color: $lkt-orange;
+}
+
+.footer--projects {
+  background-color: $lkt-lt-orange;
+}

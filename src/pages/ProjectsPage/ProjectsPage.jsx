@@ -11,7 +11,7 @@ export default function ProjectsPage() {
         <Banner
           bannerClass="banner banner--projects"
           title="My Previous Work"
-          intro=""
+          intro="Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists. Just my luck, no ice. Forget the fat lady! You're obsessed with the fat lady! Drive us out of here! Life finds a way. Must go faster. Jaguar shark! So tell me - does it really exist?"
         />
       </main>
       <Footer footerClass="footer footer--projects" />

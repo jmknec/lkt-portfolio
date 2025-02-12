@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import "./Header.scss";
-// import github from "../../assets/icons/github.svg";
-// import linked from "../../assets/icons/linkedin.svg";
 import logo from "../../assets/icons/logo.svg";
 import lkt from "../../assets/icons/lkt.svg";
 
