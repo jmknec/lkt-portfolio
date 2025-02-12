@@ -1,6 +1,6 @@
-import "./Thumbnail.scss";
+import "./ProjectThumbnail.scss";
 
-export default function Thumbnail({ name, thumb, brief, altText }) {
+export default function ProjectThumbnail({ name, thumb, brief, altText }) {
   return (
     <>
       <div className="project">

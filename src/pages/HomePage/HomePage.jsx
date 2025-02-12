@@ -1,13 +1,13 @@
 import "./HomePage.scss";
+import { useLocation } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import Banner from "../../components/Banner/Banner";
-import Thumbnail from "../../components/Thumbnail/Thumbnail";
+import ProjectGallery from "../../components/ProjectGallery/ProjectGallery";
 import Footer from "../../components/Footer/Footer";
-import sample1 from "../../assets/pictures/sample1.avif";
-import sample2 from "../../assets/pictures/sample2.avif";
-import sample3 from "../../assets/pictures/sample3.avif";
 
 export default function HomePage() {
+  const location = useLocation();
+
   return (
     <>
       <Header headerClass="header header--landing" />
@@ -19,26 +19,7 @@ export default function HomePage() {
         />
         <section className="projects">
           <h2 className="projects__heading">Recent Work</h2>
-          <div className="projects__gallery">
-            <Thumbnail
-              name=""
-              thumb={sample1}
-              altText="image of mug and flowers on a pink background"
-              brief=""
-            />
-            <Thumbnail
-              name=""
-              thumb={sample2}
-              altText="image of pink and orange smiley face balloons"
-              brief=""
-            />
-            <Thumbnail
-              name=""
-              thumb={sample3}
-              altText="collection of vinyl records"
-              brief=""
-            />
-          </div>
+          <ProjectGallery page={location.pathname} />
         </section>
       </main>
       <Footer footerClass="footer footer--landing" />

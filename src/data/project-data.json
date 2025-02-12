@@ -1,6 +1,9 @@
 [
   {
+    "id": 1,
     "name": "Sample 1",
+    "thumb": "https://images.unsplash.com/photo-1551499779-ee50f1aa4d25?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Njd8MnZSRHFxNzJBcDR8fGVufDB8fHx8fA%3D%3D",
+    "alt": "image of mug and flowers on a pink background",
     "tech": "React",
     "category": "Web Development",
     "date": "2025",
@@ -10,7 +13,10 @@
     "link": ""
   },
   {
+    "id": 2,
     "name": "Sample 2",
+    "thumb": "https://images.unsplash.com/photo-1509909756405-be0199881695?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OXxocm9veHk2d2NONHx8ZW58MHx8fHx8",
+    "alt": "image of pink and orange smiley face balloons",
     "tech": "React",
     "category": "Web Development",
     "date": "2025",
@@ -20,11 +26,27 @@
     "link": ""
   },
   {
+    "id": 3,
     "name": "Sample 3",
+    "thumb": "https://images.unsplash.com/photo-1608645113851-ffdecb7da99a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwzVUQ3dldBUXhab3x8ZW58MHx8fHx8",
+    "alt": "collection of vinyl records",
     "tech": "React",
     "category": "Web Development",
     "date": "2025",
     "about": "Yes, Yes, without the oops! Hey, take a look at the earthlings. Goodbye! Must go faster. This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should.",
+    "client": "",
+    "team": "",
+    "link": ""
+  },
+  {
+    "id": 4,
+    "name": "Sample 4",
+    "thumb": "https://images.unsplash.com/photo-1544885348-6cf79234ad61?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8SWFJVFNFYi1EeGN8fGVufDB8fHx8fA%3D%3D",
+    "alt": "close-up of purple-hued light bulbs",
+    "tech": "React",
+    "category": "Web Development",
+    "date": "2025",
+    "about": "Forget the fat lady! You're obsessed with the fat lady! Drive us out of here! Do you have any idea how long it takes those cups to decompose. What do they got in there? King Kong? God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs.",
     "client": "",
     "team": "",
     "link": ""
