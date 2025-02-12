@@ -1,11 +1,11 @@
 import "./Button.scss";
 
-export default function Button({ text, onClick, icon, active }) {
+export default function Button({ text, onClick, icon }) {
   return (
     <>
-      <button className={`button ${active ? "active" : ""}`} onClick={onClick}>
+      <button className="button" onClick={onClick}>
         <img
-          className="icon icon--button"
+          className="button__icon"
           src={icon}
           alt={`icon for ${text} button`}
         />

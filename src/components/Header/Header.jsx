@@ -1,10 +1,22 @@
-import { Link, useNavigate, useLocation } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Header.scss";
 import Button from "../Button/Button";
 import logo from "../../assets/icons/logo.svg";
 import lkt from "../../assets/icons/lkt.svg";
+import about from "../../assets/icons/about.svg";
+import work from "../../assets/icons/work.svg";
 
 export default function Header({ headerClass }) {
+  const navigate = useNavigate();
+
+  function aboutClick() {
+    navigate("/about");
+  }
+
+  function workClick() {
+    navigate("/work");
+  }
+
   return (
     <>
       <header className={headerClass}>
@@ -18,18 +30,8 @@ export default function Header({ headerClass }) {
             </Link>
           </div>
           <nav className="header__site-nav">
-            <ul className="header__list">
-              <li className="header__nav-item">
-                <Link className="header__link" to={"about"}>
-                  about
-                </Link>
-              </li>
-              <li className="header__nav-item">
-                <Link className="header__link" to={"projects"}>
-                  work
-                </Link>
-              </li>
-            </ul>
+            <Button text="ABOUT" onClick={aboutClick} icon={about} />
+            <Button text="WORK" onClick={workClick} icon={work} />
           </nav>
         </div>
       </header>
